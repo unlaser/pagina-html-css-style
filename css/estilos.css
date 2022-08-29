@@ -1,38 +1,47 @@
 ﻿
-body
 
-{ color:dodgerblue;
-    text-align:center;
-    font-family:Dragonian;
+body {
+    color: dodgerblue;
+    text-align: center;
+    font-family: fantasy;
     font-size: 16px;
-    margin:0;
-    padding:0;
-}
-#container
-{
-    width:300px;
-    padding:1cm;
-    text-align:center;
-    border: 10px solid #808080;
-    margin: 0 auto;
-}
-#container h1
-{
-font-size: 40px;
-}
-#container h1
-{
-font-size: 40px;
+    margin: 0;
+    padding: 0;
 }
 
-#container p
-{
-     font-size:15px;
-     color:crimson;
- }
+#cabecera {
+    color: black;
+    background:#cdbe4d;
+    opacity: 0.6;
+    font-family: 'Segoe Print';
+    font-size: 100px;
+    box-shadow: 0px 5px 30px 0px #808080;
+}
+#tagline {
+    color: red;
+    font-family: fantasy;
+    font-size: 30px;
+}
 
- #container p2 
-    {
+    #container {
+        width: 700px;
+        padding: 1cm;
+        text-align: center;
+        border: 2px solid #808080;
+        margin: 0 auto;
+    }
+
+    #container h1 {
+        font-size: 40px;
+    }
+
+
+    #container p {
         font-size: 15px;
-        color: gold;
+        color: #ff0000;
+    }
+
+    #container p2 {
+        font-size: 20px;
+        color: mediumvioletred;
     }
